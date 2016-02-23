@@ -38,12 +38,12 @@ h1.employer {
 }
 
 .interest {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     margin: 0px;
     text-transform: none;
     line-height: normal;
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 100
 }
 
 p {
@@ -57,6 +57,15 @@ p {
         margin: 0 0 35px;
         font-size: 20px;
         line-height: 1.6;
+    }
+    
+    .interest {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin: 0px;
+        text-transform: none;
+        line-height: normal;
+        font-size: 20px;
+        font-weight: 100
     }
 }
 
