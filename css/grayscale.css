@@ -30,10 +30,33 @@ h6 {
     letter-spacing: 1px;
 }
 
+h1.employer {
+    margin: 0px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+p.interest {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin: 0px;
+    line-height: normal;
+    font-size: 700px;
+    font-weight: 100;
+}
+
 p {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
+}
+
+job-info {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    line-height: normal;
+    display: block;
 }
 
 @media(min-width:768px) {
@@ -257,21 +280,28 @@ a:focus {
     }
 }
 
-.content-section {
-    padding-top: 100px;
+.profile-pic {
+    width: 200px;
+    height: 200px;
 }
 
-.download-section {
+.content-section {
+    padding-top: 75px;
+}
+
+.experience-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(../img/washington-dc.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
+
+
 
 #map {
     width: 100%;
@@ -281,11 +311,16 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 100px;
     }
 
-    .download-section {
+    .experience-section {
         padding: 100px 0;
+    }
+    
+    .profile-pic {
+        width: 250px;
+        height: 250px;
     }
 
     #map {

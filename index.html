@@ -28,7 +28,18 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    <!-- Google Analytics -->
+    <!--
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+        ga('create', 'UA-74137355-1', 'auto');
+        ga('send', 'pageview');
+    </script> -->
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -90,25 +101,86 @@
 
     <!-- About Section -->
     <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <img src = "img/me.jpg" width="250px" height="250px" class="img-circle" alt="Me">
-                <h2><br>About Me</h2>
-                <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-                <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-                <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
-            </div>
+        <div class="col-lg-10 col-lg-offset-1">
+            <img src = "img/me.jpg" class="img-circle profile-pic" alt="Me">
+            <h2><br>About Me</h2>
+            <p>I'm a third-year student at the Georgia Institute of Technology majoring in Computer Science and minoring in International Affairs. My CS concentrations are information internetworks and media, whereas my INTA concentration is modeling military scenarios.</p>
+            <p>I have experience with Java, Python, C, Typescript, Javascript, HTML, iOS Development (Swift), and Android Development.</p>
+            <p>In my free time, I'm currently serving as a representative for the College of Computing in the Georgia Tech Student Government Association's Undergraduate House of Representatives.</p>
         </div>
     </section>
 
-    <!-- Download Section -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
+    <!-- Experience Section -->
+    <section id="experience" class="content-section text-center">
+        <div class="experience-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                    <h2>My Experience</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="fa fa-windows fa-4x"></span>
+                            <h1 class="employer" style="padding-top:10px">Microsoft</h1>
+                            <span class="visible-lg-block visible-md-block visible-sm-block visible-xs-block">Future Software Engineering Intern</span>
+                            <span class="visible-lg-block visible-md-block visible-sm-block visible-xs-block">May 2016 - August 2016</span>
+                            <span class="visible-lg-block visible-md-block visible-sm-block visible-xs-block">Azure Team</span>
+                        </div>
+                        <div class="col-xs-12 visible-sm-block visible-xs-block" style="padding: 20px"></div>
+                        <div class="col-md-6">
+                            <img src="img/ng-logo.png" width="75px" alt="Northrop Grumman Logo">
+                            <h1 class="employer" style="padding-top:12px">Northrop Grumman</h1>
+                            <span class="visible-lg-block visible-md-block visible-sm-block visible-xs-block">Software Engineering Intern</span>
+                            <span class="visible-lg-block visible-md-block visible-sm-block visible-xs-block">May 2015 - July 2015</span>
+                            <span class="visible-lg-block visible-md-block visible-sm-block visible-xs-block">Electronic Systems</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Interests Section -->
+    <section id="interests" class="content-section text-center">
+        <div class="container">
+            <div class="row">
+                <h2>My Interests</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-md-offset-1">
+                    <span class="interest">Information Security</span>
+                </div>
+                <div class="col-md-4">
+                    <h1 class="interest">Networking</h1>
+                </div>
+                <div class="col-md-3">
+                    <h1 class="interest">Web Dev</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 visible-lg-block visible-md-block"><br></div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-md-offset-1">
+                    <h1 class="interest">Mobile App Dev</h1>
+                </div>
+                <div class="col-md-4">
+                    <h1 class="interest">Cyber Warfare</h1>
+                </div>
+                <div class="col-md-3">
+                    <h1 class="interest">Internet of Things Devices</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 visible-lg-block visible-md-block"><br></div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-md-offset-1">
+                    <h1 class="interest">Domestic and International Politics</h1>
+                </div>
+                <div class="col-md-4">
+                    <h1 class="interest">Military Strategy</h1>
+                </div>
+                <div class="col-md-3">
+                    <h1 class="interest">Video Editing</h1>
                 </div>
             </div>
         </div>
@@ -118,32 +190,23 @@
     <section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Start Bootstrap</h2>
-                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
-                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
-                </p>
+                <h2>Get in Touch</h2>
+                <p>If you would like to contact me for job opportunities or just a good chat, feel free to email me at <a href="http://www.google.com/recaptcha/mailhide/d?k=01JXVaRYt2H-lHFMnHVuQWvg==&amp;c=UHGggPxOeG5rONpDuttQiNoaxXwhXMEuG6TFe1XcnHM=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501JXVaRYt2H-lHFMnHVuQWvg\75\75\46c\75UHGggPxOeG5rONpDuttQiNoaxXwhXMEuG6TFe1XcnHM\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">c...@gatech.edu</a> or message me through LinkedIn.</p>
                 <ul class="list-inline banner-social-buttons">
                     <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-linkedin-square fa-fw"></i> <span class="network-name">LinkedIn</span></a>
                     </li>
                 </ul>
             </div>
         </div>
     </section>
 
-    <!-- Map Section -->
-    <div id="map"></div>
-
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Your Website 2014</p>
+            <p style="font-size: 12px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 200; padding-bottom: 10px">Copyright &copy; Craig Owenby 2016</p>
+            <!-- Privacy Policy -->
+            <a href="//www.iubenda.com/privacy-policy/7800727" class="iubenda-black iubenda-embed" title="Privacy Policy">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "//cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
         </div>
     </footer>
 
@@ -155,9 +218,6 @@
 
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
-
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
